@@ -1,0 +1,7 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/affirmation"
+  to = "/.netlify/functions/affirmation"
+  status = 200
